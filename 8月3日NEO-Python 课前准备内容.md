@@ -51,7 +51,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 #### NEO-Local
 
-进入想要把neo-local加载到的文件夹，比如：
+进入想要把neo-local下载到的文件夹，比如：
 
 ```
 cd Documents/neo/
