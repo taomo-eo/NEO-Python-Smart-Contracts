@@ -1,4 +1,4 @@
-## 0-准备
+## 准备
 
 > 教程基于macOS或[Linux Ubuntu](https://www.ubuntu.com/download/desktop)，windows用户需要使用[linux虚拟机](https://www.virtualbox.org/wiki/Downloads)。
 
@@ -47,23 +47,23 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 
 
-## 1-环境搭建
+## 环境搭建
 
 #### NEO-Local
 
-进入想要把neo-local下载到的文件夹，比如：
+1.进入想要把neo-local下载到的文件夹，比如：
 
 ```
 cd Documents/neo/
 ```
 
-下载Github上的NEO-Local, COZ制作的整合包，整合了NEO-Python钱包的所有依赖包，可以一键搭建neo-python和私链。执行：
+2.下载Github上的NEO-Local, COZ制作的整合包，整合了NEO-Python钱包的所有依赖包，可以一键搭建neo-python和私链。执行：
 
 ```
 git clone https://github.com/CityOfZion/neo-local.git
 ```
 
-进入neo-local所在的路径
+3.进入neo-local所在的路径
 
 ```
 cd ./neo-local
@@ -71,7 +71,7 @@ cd ./neo-local
 
 
 
-启动docker
+4.启动docker
 
 ```
 sudo service docker start
@@ -79,7 +79,7 @@ sudo service docker start
 
 
 
-运行neo-local: 
+5.运行neo-local: 
 
 ```
 sudo docker-compose up -d --build --remove-orphans
@@ -87,7 +87,7 @@ sudo docker-compose up -d --build --remove-orphans
 
 ​	*注：第一次运行时需要下载4.4G的内容，可能需要翻墙*
 
-运行neo-python钱包：
+6.运行neo-python钱包：
 
 ```
 sudo docker exec -it neo-python np-prompt -p -v
@@ -98,13 +98,13 @@ sudo docker exec -it neo-python np-prompt -p -v
 ![neo-python-running](https://raw.githubusercontent.com/taomo-eo/NEO-Python-Smart-Contracts/master/neo-python-running.png)
 
 
-退出钱包:
+7.退出钱包:
 
 ```
 quit
 ```
 
-停止运行neo-local:
+8.停止运行neo-local:
 
 ```
 docker-compose down
