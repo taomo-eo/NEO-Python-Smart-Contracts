@@ -95,7 +95,7 @@ sudo docker exec -it neo-python np-prompt -p -v
 
 出现如下界面进入了**NEO CLI 命令行**，那么恭喜你已经成功搭建好所有环境。
 
-![neo-python-running](.\neo-python-running.png)
+![neo-python-running](https://raw.githubusercontent.com/taomo-eo/NEO-Python-Smart-Contracts/master/neo-python-running.png)
 
 
 退出钱包:
