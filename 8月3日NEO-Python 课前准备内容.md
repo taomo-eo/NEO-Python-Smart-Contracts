@@ -110,6 +110,6 @@ quit
 docker-compose down
 ```
 
-
+*Tip: 当neo-local停止运行时目前的私链也会停止运行*
 
 *注：若想要不使用整合包的搭建环境方法，可见此教程https://blog.gallifrey.cn/?p=419*
